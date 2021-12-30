@@ -1,0 +1,18 @@
+{
+  "name": "slackonetimesecret",
+  "version": "1.0.0",
+  "description": "A Slack integration with One Time Secret's API",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "author": "silvia.murblanch@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "2.6.6",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "vercel": "^23.1.2"
+  }
+}

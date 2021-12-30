@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;;
+  margin: 0;
+}
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+p {
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5em;
+  margin: 0;
+}
+span {
+  font-family: 'Slabo 27px', serif;
+  font-size: 300px;
+  font-weight: bold;
+  color: #E60000;
+}
+@media (min-width: 320px) and (max-width: 414px) {
+  img {
+    max-width: 180px;
+  }
+  span {
+    font-size: 200px;
+  }
+}
+@media (max-width: 414px) {
+  p {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 320px) {  
+  img {
+    max-width: 120px;
+  }
+  span {
+    font-size: 150px;
+  }
+}
